@@ -1,19 +1,20 @@
 <!-- ============================================== -->
-<!-- 신상훈 (Shin Sang-hoon) — GitHub Profile README -->
+<!-- 신상훈 (Shin Sang-hoon) — GitHub Profile README v2 -->
+<!-- 흑백 미니멀 톤 · 2026.05.20 -->
 <!-- ============================================== -->
 
 <div align="center">
 
-<!-- 헤더: 그라데이션 배너 + 캐치프레이즈 -->
+<!-- 헤더: 흑백 그라데이션 배너 -->
 <a href="https://github.com/shin-sang-hoon">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,100:0ea5e9&height=220&section=header&text=Shin%20Sang-hoon&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=9년%20사장의%20실행력을%20코드로%20옮기는%20개발자&descSize=18&descAlignY=60&animation=fadeIn" width="100%" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:333333&height=220&section=header&text=Shin%20Sang-hoon&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=9년%20사장의%20실행력을%20코드로%20옮기는%20개발자&descSize=18&descAlignY=60&animation=fadeIn" width="100%" alt="header"/>
 </a>
 
 <br/>
 
-<!-- 타이핑 애니메이션 한 줄 소개 -->
+<!-- 타이핑 애니메이션: 검은색 -->
 <a href="https://github.com/shin-sang-hoon">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans+KR&weight=600&size=22&duration=3500&pause=800&color=1E3A8A&center=true&vCenter=true&width=720&lines=배워야%20하는%20신입이%20아닌%2C%20즉시%20일할%20수%20있는%20개발자;Spring%20Boot%20%2B%20React%20%2B%20Python%20AI%20%7C%20Full-Stack%20Developer;끝맺지%20않은%20프로젝트는%20단%20하나도%20없습니다" alt="Typing intro"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans+KR&weight=600&size=22&duration=3500&pause=800&color=000000&center=true&vCenter=true&width=720&lines=배워야%20하는%20신입이%20아닌%2C%20즉시%20일할%20수%20있는%20개발자;Spring%20Boot%20%2B%20React%20%2B%20Python%20AI%20%7C%20Full-Stack%20Developer;끝맺지%20않은%20프로젝트는%20단%20하나도%20없습니다" alt="Typing intro"/>
 </a>
 
 </div>
@@ -28,7 +29,7 @@
 <tr>
 <td width="38%" align="center">
 
-<!-- 프로필 사진 자리: 아래 안내에 따라 본인 사진 URL로 교체 -->
+<!-- 프로필 사진 -->
 <img src="./assets/profile.jpg" width="220" style="border-radius:50%;" alt="Shin Sang-hoon"/>
 
 <br/><br/>
@@ -118,40 +119,40 @@
 <div align="center">
 
 ### Backend
-![Java](https://img.shields.io/badge/Java%2017-007396?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![JPA](https://img.shields.io/badge/Spring%20Data%20JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![Java](https://img.shields.io/badge/Java%2017-000000?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-000000?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-000000?style=for-the-badge&logo=springsecurity&logoColor=white)
+![JPA](https://img.shields.io/badge/Spring%20Data%20JPA-000000?style=for-the-badge&logo=hibernate&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
 ### Frontend
-![React](https://img.shields.io/badge/React%2019-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/React%2019-000000?style=for-the-badge&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-000000?style=for-the-badge&logo=vite&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
 
 ### AI / Python
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![KoBERT](https://img.shields.io/badge/KoBERT-FF6F00?style=for-the-badge&logo=huggingface&logoColor=white)
-![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![KoBERT](https://img.shields.io/badge/KoBERT-000000?style=for-the-badge&logo=huggingface&logoColor=white)
+![scikit--learn](https://img.shields.io/badge/scikit--learn-000000?style=for-the-badge&logo=scikitlearn&logoColor=white)
 
 ### Database & Realtime
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![WebSocket](https://img.shields.io/badge/STOMP%20WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-000000?style=for-the-badge&logo=redis&logoColor=white)
+![WebSocket](https://img.shields.io/badge/STOMP%20WebSocket-000000?style=for-the-badge&logo=socketdotio&logoColor=white)
 
 ### Infra & DevOps
-![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)
-![AWS S3](https://img.shields.io/badge/AWS%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
-![CloudFront](https://img.shields.io/badge/CloudFront-8C4FFF?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS EC2](https://img.shields.io/badge/AWS%20EC2-000000?style=for-the-badge&logo=amazonec2&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS%20S3-000000?style=for-the-badge&logo=amazons3&logoColor=white)
+![CloudFront](https://img.shields.io/badge/CloudFront-000000?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=white)
 
 ### Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-000000?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 
 </div>
@@ -184,15 +185,11 @@
 
 **🎯 My Role — 5개 핵심 영역**
 
-- ✅ **AWS 통합 배포** (S3 + CloudFront + EC2)
-- ✅ **WebSocket 실시간 채팅** (STOMP + JWT 인증)
-- ✅ **AI 챗봇 단계별 개발**
-  Seq2Seq → TF-IDF → **TF-IDF + KoBERT 하이브리드**
-  858 QA 데이터셋 직접 구축
+- ✅ **AWS 통합 배포**
+- ✅ **WebSocket 실시간 채팅**
+- ✅ **AI 챗봇 단계별 개발** — TF-IDF + KoBERT 하이브리드
 - ✅ **관리자 페이지 + 리뷰/신고 시스템**
-  스냅샷 패턴으로 신고 이력 영구 보존
 - ✅ **Java↔Python 크롤러 연동**
-  ProcessBuilder + Jackson 역직렬화
 
 </td>
 <td width="50%" valign="top">
@@ -217,13 +214,11 @@
 
 **🎯 What I Built — 혼자 처음부터 끝까지**
 
-- ✅ **17개 엔티티 도메인 설계** + JWT Access/Refresh
-- ✅ **3D 키보드 빌더** (Three.js + R3F)
-  케이스·스위치·키캡 실시간 변경 + 가격 자동 합산
-  **GLB 자동 분리 알고리즘 직접 작성**
-- ✅ **AI 챗봇 도메인 이식** + FAISS 검색 최적화
+- ✅ **17개 엔티티 도메인 설계**
+- ✅ **3D 키보드 빌더**
+- ✅ **AI 챗봇 도메인 이식**
+- ✅ **WebSocket 실시간 경매**
 - ✅ **N+1 해결 / Redis 캐싱 / Service 테스트 49개 작성**
-- ✅ **Docker Compose** 통합 환경 구성
 
 </td>
 </tr>
@@ -283,15 +278,15 @@ TF-IDF 후보 20개 → KoBERT 의미 유사도 → 최종 선택
 </td>
 <td width="50%" valign="top">
 
-#### ⚡ [Swachron] WebGL 컨텍스트 누수
+#### 🎯 [Swachron] WebSocket 핫딜 경매 구현
 
-**문제** — 3D 빌더 페이지를 여러 번 열면
-WebGL 컨텍스트가 누적되어 렌더링 실패
+**문제** — 키보드는 시간 제한 선착순 경매와 어울리지 않는 상품 특성. 팀 프로젝트에서 익힌 WebSocket 기술을 살리고 싶었지만, **이미 구현한 일반 경매 기능을 폐기해야 할 위기**에 봉착.
 
-**해결** — `forceContextLoss()` 명시 호출 + 검수 도구(`/admin/validate`) 직접 제작 (단축키 + localStorage 검수 자동화)
+**해결** — 기능 폐기 대신 **비즈니스 컨셉을 전환**.
+*"한정판 키보드 중고 경매"* 로 재설계해
+관리자가 **30~70% 할인율 + 상품 상태**를 선택 가능하게 구현 → WebSocket 실시간 호가는 그대로 유지.
 
-**배운 점** — *검수 도구를 직접 만드는 것이
-결국 시간을 절약한다*
+**배운 점** — 기능을 버리지 않고 **컨셉을 바꿔서 살려내는** 제품 감각
 
 </td>
 </tr>
@@ -304,14 +299,14 @@ WebGL 컨텍스트가 누적되어 렌더링 실패
 <div align="center">
 
 <a href="https://github.com/shin-sang-hoon">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=shin-sang-hoon&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=1e3a8a&icon_color=0ea5e9&text_color=333333&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shin-sang-hoon&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=1e3a8a&text_color=333333&langs_count=8" alt="Top Langs"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=shin-sang-hoon&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=000000&icon_color=000000&text_color=333333&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shin-sang-hoon&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=000000&text_color=333333&langs_count=8" alt="Top Langs"/>
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/shin-sang-hoon">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=shin-sang-hoon&theme=default&hide_border=true&background=ffffff&stroke=ffffff&ring=1E3A8A&fire=0EA5E9&currStreakLabel=1E3A8A&sideLabels=1E3A8A&dates=666666" alt="Streak"/>
+  <img src="https://streak-stats.demolab.com?user=shin-sang-hoon&theme=default&hide_border=true&background=ffffff&stroke=ffffff&ring=000000&fire=000000&currStreakLabel=000000&sideLabels=000000&dates=666666" alt="Streak"/>
 </a>
 
 </div>
@@ -320,20 +315,22 @@ WebGL 컨텍스트가 누적되어 렌더링 실패
 
 ## 🎓 Education & Career
 
-```
-📚 더조은컴퓨터아카데미             2025.12 ~ 2026.06 (예정)
-   MSA 기반 Java 풀스택 웹/앱 개발 과정
-   • 5개월 무결석·무지각 (현재까지)
-   • MUREAM(팀) · Swachron(개인) 두 프로젝트 완수
+### 📚 더조은컴퓨터아카데미
+**2025.12 ~ 2026.06 (예정)** · MSA 기반 Java 풀스택 웹/앱 개발 과정
+- 5개월 무결석·무지각 (현재까지)
+- MUREAM(팀) · Swachron(개인) 두 프로젝트 완수
 
-🎓 건국대학교 (서울)                  2013.03 ~ 2020.02
-   의생명공학과 / 부동산학과 (복수전공) · 졸업
+<br/>
 
-🏪 알레르망 김포사우점 (자영업)      2016.11 ~ 2025.11 (9년)
-   대표 · 매장 운영 전반 총괄
-   • 매출/재고/발주 관리, 거래처·직원·고객 응대
-   • 매출 데이터 분석을 통한 발주·재고 최적화
-```
+### 🎓 **건국대학교 (서울)**
+**2013.03 ~ 2020.02** · **의생명공학과 / 부동산학과 (복수전공) · 졸업**
+
+<br/>
+
+### 🏪 알레르망 김포사우점 (자영업)
+**2016.11 ~ 2025.11 (9년)** · 대표 · 매장 운영 전반 총괄
+- 매출/재고/발주 관리, 거래처·직원·고객 응대
+- 매출 데이터 분석을 통한 발주·재고 최적화
 
 ---
 
@@ -342,15 +339,18 @@ WebGL 컨텍스트가 누적되어 렌더링 실패
 <div align="center">
 
 <a href="mailto:popeeplus87@naver.com">
-  <img src="https://img.shields.io/badge/popeeplus87@naver.com-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Email"/>
+  <img src="https://img.shields.io/badge/popeeplus87@naver.com-000000?style=for-the-badge&logo=naver&logoColor=white" alt="Email"/>
 </a>
 <a href="https://github.com/shin-sang-hoon">
-  <img src="https://img.shields.io/badge/shin--sang--hoon-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/shin--sang--hoon-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+<a href="https://www.notion.so/SANGHOON-s-IT-SPACE-2cd54246173980a0bfaae8ada32edbe5">
+  <img src="https://img.shields.io/badge/SANGHOON's%20IT%20SPACE-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion"/>
 </a>
 
 <br/><br/>
 
-**📞 010-6824-7715** · **📍 인천 남동구**
+**📞 010-6824-7715**
 
 <br/>
 
@@ -362,5 +362,5 @@ WebGL 컨텍스트가 누적되어 렌더링 실패
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:1e3a8a&height=120&section=footer&animation=fadeIn" width="100%" alt="footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:333333,100:000000&height=120&section=footer&animation=fadeIn" width="100%" alt="footer"/>
 </div>
