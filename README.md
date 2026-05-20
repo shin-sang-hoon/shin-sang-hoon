@@ -337,8 +337,7 @@
 <div align="center">
 
 <a href="https://github.com/shin-sang-hoon">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=shin-sang-hoon&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=000000&icon_color=000000&text_color=333333&cache_seconds=86400" alt="GitHub Stats"/>
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shin-sang-hoon&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=000000&text_color=333333&langs_count=8&cache_seconds=86400" alt="Top Langs"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shin-sang-hoon&theme=minimal&hide_border=true&bg_color=ffffff&color=000000&line=000000&point=000000&area=true&area_color=e5e5e5&custom_title=Daily%20Commit%20Activity" alt="Activity Graph" width="95%"/>
 </a>
 
 <br/><br/>
@@ -405,7 +404,7 @@
 
 <br/><br/>
 
-<font size="5"><b>📞 010-6824-7715</b></font>
+## 📞 **010-6824-7715**
 
 <br/><br/>
 
