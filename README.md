@@ -51,7 +51,7 @@
 
 매장의 성패가 결국 **시스템과 데이터를 얼마나 잘 다루는가**에 달려 있다는 사실을 매일 체감하며, 사용자가 아닌 **시스템을 직접 만드는 사람**이 되기로 결심했습니다.
 
-2025년 12월, 안정적인 사업장을 아버지에게 인계하고 풀스택 국비 과정을 시작했습니다. **오늘까지 5개월 동안 단 한 번의 결석·지각 없이** 모든 과정에 임했고, 팀 프로젝트와 개인 프로젝트를 모두 **끝까지 책임지고 완성**하며 풀스택 흐름을 처음부터 끝까지 체득했습니다.
+2025년 12월, 안정적인 사업장을 아버지에게 인계하고 풀스택 국비 과정을 시작했습니다. **오늘까지 6개월 동안 단 한 번의 결석·지각 없이** 모든 과정에 임했고, 팀 프로젝트와 개인 프로젝트를 모두 **끝까지 책임지고 완성**하며 풀스택 흐름을 처음부터 끝까지 체득했습니다.
 
 > 신입의 자리에서 배우러 가는 것이 아닙니다.
 > **자영업으로 단련된 책임감**과 **직접 부딪히며 익힌 풀스택 구현 능력**을
@@ -90,7 +90,7 @@
 <td width="33%" align="center" valign="top">
 
 ### 📅
-<font size="5"><b>5개월 무결석·무지각</b></font>
+<font size="5"><b>6개월 무결석·무지각</b></font>
 
 <font size="4">
 
@@ -116,7 +116,7 @@
 25일 만에 완성.
 
 개인 프로젝트 **Swachron** —
-혼자서 48일간 풀스택 한 사이클을
+혼자서 54일간 풀스택 한 사이클을
 끝맺어 본 경험.
 
 </font>
@@ -157,9 +157,8 @@
 
 ### Infra & DevOps
 ![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)
-![AWS S3](https://img.shields.io/badge/AWS%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
-![CloudFront](https://img.shields.io/badge/CloudFront-8C4FFF?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 
 ### Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -191,6 +190,8 @@
 
 **🔗** [shin-sang-hoon/clothing-shop](https://github.com/shin-sang-hoon/clothing-shop)
 
+**🏠** [muream.shop](http://muream.shop)
+
 </font>
 
 <br/>
@@ -200,7 +201,7 @@
 **🛠 Tech**
 `Spring Boot` `React+TS` `MySQL` `Redis`
 `STOMP WebSocket` `Python` `KoBERT`
-`AWS S3+CloudFront+EC2`
+`AWS EC2 + Docker Compose + Nginx`
 
 **🎯 My Role — 5개 핵심 영역**
 
@@ -222,11 +223,13 @@
 <font size="4">
 
 > 키크론 상품 × 스웨그키 프론트 컨셉의
-> 1인 개발 풀스택 프로젝트
+> 1명 개발 풀스택 프로젝트
 
-`Solo Project` · `48일` · `1인`
+`Solo Project` · `54일` · `1명`
 
 **🔗** [shin-sang-hoon/keyboard-shop](https://github.com/shin-sang-hoon/keyboard-shop)
+
+**🏠** [swachron.shop](http://swachron.shop)
 
 </font>
 
@@ -245,7 +248,7 @@
 - ✅ **3D 키보드 빌더**
 - ✅ **AI 챗봇 도메인 이식**
 - ✅ **WebSocket 실시간 경매**
-- ✅ **N+1 해결 / Redis 캐싱 / Service 테스트 49개 작성**
+- ✅ **관리자 페이지 + 리뷰/신고 시스템**
 
 </font>
 
@@ -358,7 +361,7 @@
 
 **2025.12 ~ 2026.06 (예정)** · MSA 기반 Java 풀스택 웹/앱 개발 과정
 
-- 5개월 무결석·무지각 (현재까지)
+- 6개월 무결석·무지각 (현재까지)
 - MUREAM(팀) · Swachron(개인) 두 프로젝트 완수
 
 </font>
