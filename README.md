@@ -1,6 +1,6 @@
 <!-- ============================================== -->
 <!-- 신상훈 (Shin Sang-hoon) — GitHub Profile README v3 -->
-<!-- 글씨 크기 전반 키우기 · 색상 복원 · 2026.05.20 -->
+<!-- 글씨 크기 전반 키우기 · 색상 복원 · Swachron 배포 완료 반영 · 2026.06.07 -->
 <!-- ============================================== -->
 
 <div align="center">
@@ -116,7 +116,7 @@
 25일 만에 완성.
 
 개인 프로젝트 **Swachron** —
-혼자서 54일간 풀스택 한 사이클을
+혼자서 61일간 풀스택 한 사이클을
 끝맺어 본 경험.
 
 </font>
@@ -225,11 +225,11 @@
 > 키크론 상품 × 스웨그키 프론트 컨셉의
 > 1명 개발 풀스택 프로젝트
 
-`Solo Project` · `54일` · `1명`
+`Solo Project` · `61일` · `1명`
 
 **🔗** [shin-sang-hoon/keyboard-shop](https://github.com/shin-sang-hoon/keyboard-shop)
 
-**🏠** [swachron.shop](http://swachron.shop)
+**🏠** [swachron.shop](https://swachron.shop)
 
 </font>
 
@@ -239,14 +239,14 @@
 
 **🛠 Tech**
 `Spring Boot` `React+Vite` `Zustand`
-`Three.js` `MySQL` `Redis` `FAISS`
-`Docker Compose` `AWS S3+EC2`
+`Three.js` `MySQL` `Redis` `Gemini RAG`
+`WebSocket` `Docker Compose` `AWS EC2+Nginx`
 
 **🎯 What I Built — 혼자 처음부터 끝까지**
 
-- ✅ **17개 엔티티 도메인 설계**
-- ✅ **3D 키보드 빌더**
-- ✅ **AI 챗봇 도메인 이식**
+- ✅ **31개 엔티티 도메인 설계**
+- ✅ **3D 키보드 빌더 (15종 색상 분리)**
+- ✅ **AI 챗봇 (Gemini RAG + IntentClassifier)**
 - ✅ **WebSocket 실시간 경매**
 - ✅ **관리자 페이지 + 리뷰/신고 시스템**
 
@@ -308,9 +308,9 @@
 
 **문제** — 키크론 GLB 한 모델에 메시 수백 개 케이스/스위치/키캡 자동 판별 불가
 
-**해결** — `worldMatrix` 누적 계산 + 면적 **mode 기반 분류 알고리즘 직접 작성** + 잘못 분류된 29개 수동 블랙리스트 = **자동 + 수동 하이브리드**
+**해결** — 재질 복제 → PBR 무력화 → y축 높이·면적 기반 판별 → 외곽 보호의 **5단계 하이브리드 알고리즘 직접 설계**
 
-**성과** — 주요 5개 GLB / 196개 상품 분리 정확도 **100%**
+**성과** — 색상 분리 안정 동작 **15종 / 222개 상품** 화이트리스트 확정
 
 </font>
 
