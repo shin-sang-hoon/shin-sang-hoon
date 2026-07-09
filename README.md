@@ -38,7 +38,7 @@
 
 <font size="4"><code>Backend-focused Full-Stack</code></font>
 
-<font size="4">📍 인천, 대한민국</font>
+<font size="4">📍 경기도 김포시, 대한민국</font>
 
 </td>
 <td width="62%" valign="top">
