@@ -347,7 +347,7 @@
 <br/><br/>
 
 <a href="https://github.com/shin-sang-hoon">
-  <img src="https://streak-stats.demolab.com?user=shin-sang-hoon&theme=default&hide_border=true&background=ffffff&stroke=ffffff&ring=000000&fire=000000&currStreakLabel=000000&sideLabels=000000&dates=666666" alt="Streak"/>
+  <img src="https://github-readme-streak-stats-gules-ten.vercel.app/?user=shin-sang-hoon" alt="Streak"/>
 </a>
 
 </div>
