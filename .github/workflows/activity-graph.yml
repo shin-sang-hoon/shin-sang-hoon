@@ -1,0 +1,93 @@
+name: Generate Activity Graph
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Build activity graph SVG
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const login = context.repo.owner;
+            const to = new Date();
+            const from = new Date(to.getTime() - 30 * 864e5);
+            const fromStr = from.toISOString().slice(0, 10);
+
+            const query = `query($login:String!,$from:DateTime!,$to:DateTime!){
+              user(login:$login){
+                contributionsCollection(from:$from,to:$to){
+                  contributionCalendar{ weeks{ contributionDays{ date contributionCount } } }
+                }
+              }
+            }`;
+
+            const res = await github.graphql(query, {
+              login,
+              from: from.toISOString(),
+              to: to.toISOString()
+            });
+
+            const days = res.user.contributionsCollection.contributionCalendar.weeks
+              .flatMap(w => w.contributionDays)
+              .filter(d => d.date >= fromStr)
+              .sort((a, b) => a.date.localeCompare(b.date));
+
+            const W = 820, H = 300, PL = 55, PR = 25, PT = 62, PB = 42;
+            const iw = W - PL - PR, ih = H - PT - PB;
+            const n = days.length;
+            const max = Math.max(1, ...days.map(d => d.contributionCount));
+            const X = i => PL + (n < 2 ? iw / 2 : (iw * i) / (n - 1));
+            const Y = v => PT + ih - (ih * v) / max;
+            const base = PT + ih;
+
+            const pts = days.map((d, i) => [X(i), Y(d.contributionCount)]);
+            const line = pts.map((p, i) => (i ? 'L' : 'M') + p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join(' ');
+            const area = line + ' L' + X(n - 1).toFixed(1) + ' ' + base + ' L' + X(0).toFixed(1) + ' ' + base + ' Z';
+
+            const ticks = [0, Math.round(max / 2), max].filter((v, i, a) => a.indexOf(v) === i);
+            const grid = ticks.map(v =>
+              `<line x1="${PL}" y1="${Y(v).toFixed(1)}" x2="${W - PR}" y2="${Y(v).toFixed(1)}" stroke="#e5e5e5" stroke-width="1"/>`
+              + `<text x="${PL - 10}" y="${(Y(v) + 4).toFixed(1)}" text-anchor="end" font-size="11" fill="#767676">${v}</text>`
+            ).join('');
+
+            const step = Math.max(1, Math.ceil(n / 7));
+            const xlabels = days.map((d, i) => {
+              if (i % step !== 0 && i !== n - 1) return '';
+              const p = d.date.split('-');
+              return `<text x="${X(i).toFixed(1)}" y="${base + 22}" text-anchor="middle" font-size="11" fill="#767676">${Number(p[1])}/${Number(p[2])}</text>`;
+            }).join('');
+
+            const dots = pts.map(p => `<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="2.5" fill="#000000"/>`).join('');
+            const total = days.reduce((s, d) => s + d.contributionCount, 0);
+
+            const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" font-family="Segoe UI, Ubuntu, Helvetica, sans-serif">
+            <rect width="${W}" height="${H}" rx="6" fill="#ffffff"/>
+            <text x="${PL}" y="34" font-size="20" font-weight="600" fill="#000000">Daily Commit Activity</text>
+            <text x="${PL}" y="52" font-size="12" fill="#767676">last 31 days · ${total} contributions</text>
+            ${grid}
+            <path d="${area}" fill="#e5e5e5"/>
+            <path d="${line}" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            ${dots}
+            ${xlabels}
+            </svg>`;
+
+            fs.mkdirSync('dist', { recursive: true });
+            fs.writeFileSync('dist/activity-graph.svg', svg);
+
+      - name: Push to output branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          commit_message: "Update activity graph [skip ci]"
