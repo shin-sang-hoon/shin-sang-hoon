@@ -341,13 +341,13 @@
 <div align="center">
 
 <a href="https://github.com/shin-sang-hoon">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shin-sang-hoon&theme=minimal&hide_border=true&bg_color=ffffff&color=000000&line=000000&point=000000&area=true&area_color=e5e5e5&custom_title=Daily%20Commit%20Activity" alt="Activity Graph" width="95%"/>
+  <img src="https://raw.githubusercontent.com/shin-sang-hoon/shin-sang-hoon/output/activity-graph.svg" alt="Activity Graph" width="95%"/>
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/shin-sang-hoon">
-  <img src="https://github-readme-streak-stats-gules-ten.vercel.app/?user=shin-sang-hoon" alt="Streak"/>
+  <img src="https://streak-stats.demolab.com/?user=shin-sang-hoon&hide_border=true" alt="Streak"/>
 </a>
 
 </div>
